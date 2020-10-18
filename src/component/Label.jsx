@@ -19,8 +19,8 @@ const Group = () => {
                 <Button className="login"> Login </Button>{' '}
 
             </div>
-            <div className="col-sm-6">
-                <Modal handleModal={handleModal} show={show} />
+            <div className="col-sm-6" >
+                <Modal handleModal={handleModal} show={show} className="modal-1"/>
 
             </div>
         </>
