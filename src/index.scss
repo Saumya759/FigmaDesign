@@ -1,9 +1,9 @@
 .head {
- width: 100%;
- height: 107px;
+  width: 100%;
+  height: 107px;
 }
 
-.heading{
+.heading {
   width: 177px;
   height: 39px;
   color: #000000;
@@ -13,17 +13,17 @@
   padding-left: 152px;
 }
 
-.header{
+.header {
   border-bottom: none !important;
 }
 
-.title{
+.title {
   margin-left: 29px;
 }
 
-.cart{
-  color:#5fa01b;
-  font-weight:700;
+.cart {
+  color: #5fa01b;
+  font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
@@ -33,9 +33,9 @@
   letter-spacing: normal;
   line-height: normal;
 }
-.order{
-  color:#000000;
-  font-weight:bold;
+.order {
+  color: #000000;
+  font-weight: bold;
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
@@ -44,31 +44,36 @@
 .bg_img {
   background-repeat: no-repeat;
 
-.register {
-  margin-top: 80px;
-  margin-left: 149px;
-  border-radius: 48px !important;
-  padding-left: 58px;
-  padding-right: 59px;
-  margin-bottom: 159px;
-
-}
-.login {
-  margin-top: 80px;
-  border-radius: 48px !important;
-  background-color: white;
-  border-color: white;
-  color: black;
-  font-size: 17px;
-  padding-left: 71px;
-  padding-right: 70px;
-  margin-bottom: 159px;
-}
-
+  .register {
+    margin-top: 80px;
+    margin-left: 149px;
+    border-radius: 48px !important;
+    padding-left: 58px;
+    padding-right: 59px;
+    margin-bottom: 159px;
+  }
+  .login {
+    margin-top: 80px;
+    border-radius: 48px !important;
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-size: 17px;
+    padding-left: 71px;
+    padding-right: 70px;
+    margin-bottom: 159px;
+  }
 }
 
-.modal{
-  border-radius: 18px;
+.form {
+  background-color: whitesmoke;
+  border-radius: 19px;
+  padding: 30px;
+}
+
+.get {
+  padding-left: 14px;
+  font-weight: 600px;
 }
 
 .word {
@@ -80,47 +85,28 @@
   color: white;
 }
 
-.row1{
-  border-bottom: 1px solid #ced4da;
+.row1 {
   padding-bottom: 10px;
-  padding-top: 20px;
 }
 
-// .modal{
-//   margin-left: 75%;
-//     margin-top: 16%;
-// }
-
-.row2{
-  border-bottom: 1px solid #ced4da;
+.row2 {
   padding-bottom: 10px;
-  padding-top: 20px;
 }
-.row3{
-  border-bottom: 1px solid #ced4da;
+.row3 {
   padding-bottom: 10px;
-  padding-top: 20px;
 }
-.row4{
-  border-bottom: 1px solid #ced4da;
+.row4 {
   padding-bottom: 10px;
-  padding-top: 20px;
-}
-.col1{
-  border-bottom: 1px solid #ced4da;
 }
 
-.col2{
-  border-bottom: 1px solid #ced4da;
-}
-
-.submit{
+.sub {
   border-radius: 50% !important;
-  // width: 50px;
-  // margin: 47px 0 -2px 96px;padding-left: 30px;
+  padding-bottom: 26px;
+  padding-left: 85px;
+  padding-right: 85px;
 }
 
-.icon1{
+.icon1 {
   width: 175px;
   height: 52px;
   color: #333c2a;
@@ -128,43 +114,103 @@
   margin-top: 168px;
 }
 
-.img1{
-  width: 363px;
+.img1 {
+  // width: 363px;
   height: 226px;
   margin-top: 115px;
-  margin-left: 160px;
+  // margin-left: 160px;
+  float: right;
 }
 
-.img2{
-  width: 386px;
+.img2 {
+  // width: 386px;
   height: 240px;
   margin-top: 160px;
-  margin-left: -37px;
+  // margin-left: -37px;
+  float: left;
 }
 
-.img3{
-  width: 340px;
+.img3 {
+  // width: 340px;
   height: 302px;
   margin-top: 160px;
-  margin-left: 160px;
+  // margin-left: 160px;
+  float: right;
 }
 
-.icon2{
+.icon2 {
   margin-top: 222px;
 }
 
-.icon3{
+.icon3 {
   margin-top: 234px;
 }
 
-.rect{
+.rect {
   background-color: #eff5e7;
-  width: 1293px;
-  height: 405px;
-  margin-top: 130px;
-  margin-left: 100px;
+  margin-top: 150px;
+}
+.above1 {
+  text-align: center;
+  font-weight: 600;
+  color: #333c2a;
+  font-size: 33px;
+  line-height: 68px;
+  letter-spacing: normal;
 }
 
-.above1{
-  width: 210px !important;
+.circle {
+  text-align: center;
+  padding-bottom: 44px;
+  padding-top: 25px;
+}
+
+.sitename {
+  font-size: 10px;
+}
+
+.info {
+  font-size: 10px;
+}
+
+.category {
+  font-size: 10px;
+}
+
+.contact {
+  font-size: 10px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0px;
+  font-size: 13px;
+}
+
+.foot {
+  text-align: center;
+}
+
+.bg8 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+}
+input:focus {
+  border-color: green;
+}
+
+.inp {
+  border: none;
+}
+
+.facebook{
+  width:90px;
+  height: 20px;
 }
