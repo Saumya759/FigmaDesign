@@ -38,11 +38,13 @@ const Land = () => {
       <Container>
         <Row>
           <Col className="p-0">
-          <div><img className="w-100 bg8" src={Pic4}/></div>
+            <div>
+              <img className="w-100 bg8" src={Pic4} />
+            </div>
           </Col>
         </Row>
       </Container>
-      <Footer/>
+      <Footer />
     </>
   );
 };

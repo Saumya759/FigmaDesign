@@ -8,11 +8,11 @@ import Landing from "./component/Landing";
 const App = () => {
   return (
     <>
+      <Navbar />
       <div
         className="bg_img row no-gutters "
         style={{ backgroundImage: `url(${car})` }}
       >
-        <Navbar />
         <Label />
       </div>
       <Landing />
